@@ -183,5 +183,3 @@ nombre[1::3] = 'rtnol'
 
 nombre[::-1] = esto quiere decir que vamos a ir desde el principio hasta el final pero en pasos negativos, es decir en pasos inversos y obtenemos
 nombre[::-1] = 'odlanoRonaitsirC'
-
-quedé en la clase 19 en el minuto 2:30:00
