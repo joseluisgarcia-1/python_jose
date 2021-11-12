@@ -176,10 +176,25 @@ en este ejemplo de arriba me dice que va tomar las letras desde la que está en 
 nombre[1:7:2] = 'rsi'
 en este ejemplo de arriba me dice que va tomar las letras desde la que está en la posición 1 hasta la que está en la 7 de 2 en 2
 nombre[1:7:] = 'ristia'
-nombre[::] = 'CristianoRonaldo', trae el string completo porque le estoy diciendo que va desde el inicio hasta el final
 
 nombre[1::3] esto quiere decir que va ir desde el indice uno hasta el indice final en pasos de 3 en 3, por lo que obtenemos lo siguiente
 nombre[1::3] = 'rtnol'
 
+nombre[::] = 'CristianoRonaldo', trae el string completo porque le estoy diciendo que va desde el inicio hasta el final
+
 nombre[::-1] = esto quiere decir que vamos a ir desde el principio hasta el final pero en pasos negativos, es decir en pasos inversos y obtenemos
 nombre[::-1] = 'odlanoRonaitsirC'
+
+Palíndromo:
+
+cuando creamos una nueva función o documento de python es una buena práctica colocar una función al inicio y otra
+al final que es la encargada de que corran las funciones, y además todo lo que esté debajo de la segunda función
+va correr: por ejemplo se hace así: 
+
+#esta va al inicio del documento
+def run():
+    pass
+# esta va a lo ultimo del documento
+if __name__ == '__main__'
+    run()
+
