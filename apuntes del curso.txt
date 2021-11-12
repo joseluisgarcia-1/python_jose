@@ -99,3 +99,23 @@ numero = 1.0
 numero = str(numero)
 numero = '1.0'
 
+Operadores lógicos y de comparación:
+
+python me va devolver verdadero con el comparador and cuando todas las condiciones son True o verdaderas
+and
+or
+not
+el operador or a diferencia de and va a devolver False, cuando el contenido de todas las variables que estás
+comparando con este operador es falso
+
+curso de pensamiento lógico
+
+== compara dos valores
+!= compara dos valores y te dice si son diferentes
+>= mayor o igual
+<= menor o igual
+< menor que
+> mayor que
+
+clase 13: primer programa, conversor de monedas
+
