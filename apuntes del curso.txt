@@ -108,7 +108,12 @@ not
 el operador or a diferencia de and va a devolver False, cuando el contenido de todas las variables que estás
 comparando con este operador es falso
 
-curso de pensamiento lógico
+Construyendo programa con condicionales:
+
+if, elif, else
+con el siguiente comandoo puedo escribir un emoji en visual: windows + .
+
+recomendado: curso de pensamiento lógico
 
 == compara dos valores
 != compara dos valores y te dice si son diferentes
