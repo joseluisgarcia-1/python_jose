@@ -124,3 +124,9 @@ recomendado: curso de pensamiento lógico
 
 clase 13: primer programa, conversor de monedas
 
+Funciones:
+
+como recomendación puedo colocar las funciones arriba o hacerlas de primero y luego llamarlas en el menú
+
+modularizando nuestro conversor de monedas:
+
