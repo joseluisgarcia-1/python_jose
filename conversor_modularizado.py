@@ -3,7 +3,7 @@ def conversor(tipo_pesos, valor_dolar):
     dolares = pesos/valor_dolar
     dolares_round = round(dolares, 2)
     dolares_caracteres = str(dolares_round)
-    print("Tienes $", dolares_round, "dolares")
+    print("Tienes $", dolares_round, "dólares")
 menu = """ Bienvenidos al mejor conversor de monedas, las opciones que hay a continuación las podemos seleccionar ingresando
 su correspondiente número
 1- Pesos colombianos
@@ -31,3 +31,4 @@ else:
 valor dolar es el valor del cada dolar en cada nacionalidad o moneda, por ejemplo en la opcion uno tenemos que, en la moneda de los colombianos
 cada dolar cuesta 3879 pesos, por esta razón decimos que ingrese cuantos pesos tiene para dividir esos pesos de la nacionalidad, entre el valor
 del dolar de cada nacionalidad correspondiente"""
+
