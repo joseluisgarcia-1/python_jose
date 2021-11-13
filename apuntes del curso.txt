@@ -202,3 +202,38 @@ break y continue:
 
 con el break lo que hacemos es detener un ciclo
 y con continue lo que hacemos es que si se cumple una condición y nos afecte de todos modos continue
+
+Random:
+
+para esto hay que importar la herramienta: import random
+random.randint(1, 100) = generame un número random entero aleatorio desde el rango que le estoy pasando, en este caso
+de 1 a 100
+
+Listas: clase 28
+
+estos metodos funcionan en las listas, el metodo append() y el metodo pop()
+- append() para agregar datos a una lista,  
+agregar una lista a otra se puede hacer con este metodo también de la siguiente manera
+lista = [1, 2, 3, True, 'Amigo', 'True', 'Samara', 'Garcia', 'Torres', '3 años', 'menor de edad', '1995', '2021', 2021, 1995]
+lista2 = [10, 20, 30, 'Messi', 'Ronaldo', 'Moto']
+lista.append(lista2)
+lista = [1, 2, 3, True, 'Amigo', 'True', 'Samara', 'Garcia', 'Torres', '3 años', 'menor de edad', '1995', '2021', 2021, 1995, [10, 20, 30, 'Messi', 'Ronaldo', 'Moto']]
+
+- pop() para eliminar datos a una lista, cuando no le pasamos el dato que queremos borrar es decir la posición
+que ese elemento tiene en la lista este metodo elimina el último dato de la lista, pero si le pasamos el número
+de la posición lo elimnina y se hace así
+lista = [1,2,3,4, 'Hola', True, 'Amigo', 5.4]
+lista.pop() = borrar el útimo elemento de la lista, es decir, 5.4
+lista.pop(2) = borra el elemento que esté en la posición dos es decir = 3
+
+las listas son objetos dinámicos, las tuplas se las denomina como objetos estáticos
+
+las tuplas luego de que hayan dentro de ella datos no pueden ser modificados, es decir, ni borrar ni agregar, son inmutables, de todos modos,
+si se puede recorrer esta tupla con un for y recorrer una tupla con un for es mucho más rápido que recorrer una lista
+
+Diccionarios:
+
+a los elementos de un diccionario accedemos a través de sus llaves, la llave siempre es el primer dato del diccionario
+por ejemplo: dict = {1:'Hola', 2: 'como', 3: 'estas'}, las llaves de este diccionario vendrían siendo 1, 2, 3
+y con estas llaves obtenemos los valores 'Hola', 'como', 'estas'
+
