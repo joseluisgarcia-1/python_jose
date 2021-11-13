@@ -1,0 +1,239 @@
+frontend = es el encargado de llevar el diseño de una pagina web o aplicación a la realidad a código a algo que vive en internet
+iot = 
+inteligencia artificial = es el campo de enseñarle a la computadora en aprender a resolver un problema sin necesidad de que un humano lo haga
+backend = es el campo que se encarga de escribir la lógica a partir de la cual funciona una aplicación y esa lógica la hacemos funcionar en un servidor o computador
+en donde está esa aplicación funcionando por debajo, de manejar digamos así, la nube
+devops = es la persona encargada de controlar toda la infraestructura a apartir de la cual funciona una aplicación
+
+ventajas:
+
+Fortalecer buenas prácticas, elegante, fácil de aprender
+
+Algoritmos:
+
+- serie de pasos ordenados para resolver un problema
+- es finito
+- no es ambiguo, es decir, que no podemos tener un paso que signifique algo en un contexto y en otro contexto signifique otra cosa.
+
+Diagrama de flujo:
+- podemos usar dfd
+
+Consolas:
+
+- Power shell
+- cmd 
+- Cmder: para descargarlo cmder.net, download full
+
+Comandos:
+
+ctrl + l = limpiar pantalla
+cd = cambiar de carpeta
+... = carpeta padre
+cd... = cambiar de carpeta a la carpeta padre
+ls = listar
+mkdir = crear carpeta
+touch o break = crear archivos
+para crear un archivo txt o docx con comandos se puede hacer con lo siguiente: touch>ejemplo.txt o break>ejemplo.txt, esto me pasó a mi porque estaba ejecutando la consola 
+desde windows y eso fue la recomendación que encontré
+
+Operadores:
+
+- suma = +
+- resta = -
+- multiplicación = *
+- división = /, con este obtenemos el resultado de una división es decir si por ejemplo divido 21 % 5 el resultado es 4.2
+- modulo = %, con este obtenemos el resto de una división es decir si por ejemplo divido 21 % 5 el resultado es 1
+- // = con este obtenemos la parte entera de una división es decir si por ejemplo divido 21 % 5 el resultado es 4
+- potencia = **, con esto podemos realizar potencias
+python en cuanto a operaciones matemáticas obedece a las reglas matemáticas de la precedencia de operadores, es decir, primero los parentesis, luego potencias, luego 
+raices, multiplicaciones, divisiones, sumas, restas, pone por encima a una multiplicación que a una suma
+- raíz cuadrada = math.sqrt(9) = 3 
+
+Variables:
+
+a modo de ejemplo podemos decir que es una caja en donde podemos guardar muchas cosas, objetos, valores, 
+numeros, letras, palabras, etc
+cuando estamos en la consola de python para ver lo que una variable está guardando lo podemos hacer con el 
+nombre directo de la variable, pero cuando estemos en el editor de texto si debemos colocar el print(variable)
+- una variable no puede empezar por un numero
+- una variable debe declararse en minúsculas
+- y si la variable tiene varias palabras separarlas con el guión bajo
+
+Los primitivos: tipos de datos sencillos
+
+Programación orientada a objetos
+
+string = cadena de caracteres
+puedo sumar textos: conocido también como concatenación
+nombre1 = 'facundo'
+nombre2 = 'messi'
+suma_nombres = nombre1+nombre2
+suma_nombres = 'facundo messi'
+
+tambien podemos multiplicar textos así:
+suma_nombres*4
+suma_nombres = 'facundo messifacundo messifacundo messifacundo messi'
+los decimales en python se separan es por punto(.) no por coma(,)
+en python 3 las variables vienen por defecto en str
+
+Convertir datos:
+
+para Convertir un numero de string a entero es así:
+numero = '1'
+numero = int(numero)
+numero = 1
+
+de decimal a texto
+numero_decmal = 4.5
+numero_decmal = str(numero_decmal)
+numero_decmal
+'4.5'
+
+de entero a float:
+numero = 1
+numero = float(numero)
+numero = 1.0
+
+de decimal a string:
+numero = 1.0
+numero = str(numero)
+numero = '1.0'
+
+Operadores lógicos y de comparación:
+
+python me va devolver verdadero con el comparador and cuando todas las condiciones son True o verdaderas
+and
+or
+not
+el operador or a diferencia de and va a devolver False, cuando el contenido de todas las variables que estás
+comparando con este operador es falso
+
+Construyendo programa con condicionales:
+
+if, elif, else
+con el siguiente comandoo puedo escribir un emoji en visual: windows + .
+
+recomendado: curso de pensamiento lógico
+
+== compara dos valores
+!= compara dos valores y te dice si son diferentes
+>= mayor o igual
+<= menor o igual
+< menor que
+> mayor que
+
+clase 13: primer programa, conversor de monedas
+
+Funciones:
+
+como recomendación puedo colocar las funciones arriba o hacerlas de primero y luego llamarlas en el menú
+
+modularizando nuestro conversor de monedas:
+
+trbajando con texto: strings
+
+metodos para colocar las palabras en un modo explícito:
+nombre = 'jose'
+nombre.upper() = 'JOSE'
+nombre.capitalize() = 'Jose'
+nombre.lower() = 'jose'
+nombre.title() = 'Jose'
+
+strip = lo que hace es eliminar los espacios basura que hay al inicio o final de un string
+nombre = 'jose   '
+nombre.strip() = 'jose'
+
+replace = este metodo recibe parametros, y lo que le digo es que lo que le estoy pasando en el primer parametro me lo quite y lo remplace
+por lo que va en el segundo parametro, ejemplo:
+nombre = 'jose'
+nombre = nombre.replace('o', 'zz')
+
+para obtener una letra especifica de una cadena de caracteres o de un nombre lo hacemos así:
+
+nombre = 'jose'
+nombre[0] = j
+
+pra contar los caracteres de una cadena lo pasamos con len
+nombre = 'jose'
+len(nombre) = 4
+
+también funciona así: 
+len("Hola, que tal, cómo vas")
+
+trabajando con textos, Slices:
+conocido como rebanadas,
+nombre = 'CristianoRonaldo'
+nombre[0:3] = 'Cris'
+en este ejemplo de arriba me toma las letras desde la que está en la posición 0 hasta la 3
+nombre[:3] = 'Cris'
+en este ejemplo de arriba también
+nombre[3:5] = 'Cris'
+en este ejemplo de arriba me dice que va tomar las letras desde la que está en la posición 3 hasta la que está en la 5
+nombre[3:] = 'Cris'
+en este ejemplo de arriba me dice que va tomar las letras desde la que está en la posición 3 hasta el final
+nombre[1:7] = 'Cris'
+en este ejemplo de arriba me dice que va tomar las letras desde la que está en la posición 1 hasta la que está en la 7
+nombre[1:7:2] = 'rsi'
+en este ejemplo de arriba me dice que va tomar las letras desde la que está en la posición 1 hasta la que está en la 7 de 2 en 2
+nombre[1:7:] = 'ristia'
+
+nombre[1::3] esto quiere decir que va ir desde el indice uno hasta el indice final en pasos de 3 en 3, por lo que obtenemos lo siguiente
+nombre[1::3] = 'rtnol'
+
+nombre[::] = 'CristianoRonaldo', trae el string completo porque le estoy diciendo que va desde el inicio hasta el final
+
+nombre[::-1] = esto quiere decir que vamos a ir desde el principio hasta el final pero en pasos negativos, es decir en pasos inversos y obtenemos
+nombre[::-1] = 'odlanoRonaitsirC'
+
+Palíndromo:
+
+cuando creamos una nueva función o documento de python es una buena práctica colocar una función al inicio y otra
+al final que es la encargada de que corran las funciones, y además todo lo que esté debajo de la segunda función
+va correr: por ejemplo se hace así: 
+
+#esta va al inicio del documento
+def run():
+    pass
+# esta va a lo ultimo del documento
+if __name__ == '__main__'
+    run()
+
+break y continue:
+
+con el break lo que hacemos es detener un ciclo
+y con continue lo que hacemos es que si se cumple una condición y nos afecte de todos modos continue
+
+Random:
+
+para esto hay que importar la herramienta: import random
+random.randint(1, 100) = generame un número random entero aleatorio desde el rango que le estoy pasando, en este caso
+de 1 a 100
+
+Listas: clase 28
+
+estos metodos funcionan en las listas, el metodo append() y el metodo pop()
+- append() para agregar datos a una lista,  
+agregar una lista a otra se puede hacer con este metodo también de la siguiente manera
+lista = [1, 2, 3, True, 'Amigo', 'True', 'Samara', 'Garcia', 'Torres', '3 años', 'menor de edad', '1995', '2021', 2021, 1995]
+lista2 = [10, 20, 30, 'Messi', 'Ronaldo', 'Moto']
+lista.append(lista2)
+lista = [1, 2, 3, True, 'Amigo', 'True', 'Samara', 'Garcia', 'Torres', '3 años', 'menor de edad', '1995', '2021', 2021, 1995, [10, 20, 30, 'Messi', 'Ronaldo', 'Moto']]
+
+- pop() para eliminar datos a una lista, cuando no le pasamos el dato que queremos borrar es decir la posición
+que ese elemento tiene en la lista este metodo elimina el último dato de la lista, pero si le pasamos el número
+de la posición lo elimnina y se hace así
+lista = [1,2,3,4, 'Hola', True, 'Amigo', 5.4]
+lista.pop() = borrar el útimo elemento de la lista, es decir, 5.4
+lista.pop(2) = borra el elemento que esté en la posición dos es decir = 3
+
+las listas son objetos dinámicos, las tuplas se las denomina como objetos estáticos
+
+las tuplas luego de que hayan dentro de ella datos no pueden ser modificados, es decir, ni borrar ni agregar, son inmutables, de todos modos,
+si se puede recorrer esta tupla con un for y recorrer una tupla con un for es mucho más rápido que recorrer una lista
+
+Diccionarios:
+
+a los elementos de un diccionario accedemos a través de sus llaves, la llave siempre es el primer dato del diccionario
+por ejemplo: dict = {1:'Hola', 2: 'como', 3: 'estas'}, las llaves de este diccionario vendrían siendo 1, 2, 3
+y con estas llaves obtenemos los valores 'Hola', 'como', 'estas'
+
