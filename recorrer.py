@@ -7,6 +7,6 @@ def run():
     for i in frase:
         print(i.lower())
     
-
+"""con esto recorremos la palabra dada letra por letra por medio de un for"""
 if __name__ == '__main__':
     run()

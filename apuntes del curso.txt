@@ -198,4 +198,7 @@ def run():
 if __name__ == '__main__'
     run()
 
-Recorrer un string con un for:
+break y continue:
+
+con el break lo que hacemos es detener un ciclo
+y con continue lo que hacemos es que si se cumple una condición y nos afecte de todos modos continue
